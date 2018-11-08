@@ -1,0 +1,834 @@
+/* CSS*/
+
+body{ /*para zera completamente as bordas do body */ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+p,h1,ul,li,h4{ /*para zera completamente para depois nao der erro */ 
+    padding: 0px;
+    margin: 0px;
+    margin-right: 
+}
+a{ 
+    color: inherit;
+    cursor: pointer;
+} 
+a:link{ 
+text-decoration:none; 
+} 
+
+.tela{
+    width: 1903px;
+    height: auto;
+    background-color: #f4f4f4;
+}
+/*cabeçario*/
+.header{
+    width: 1903px;
+    height: 100px;
+    background-color: #ffb356;
+    position: fixed;
+    z-index: 999;   
+}
+.caixa_header{
+    width: 1400px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.caixa_logo{
+    width: 210px;
+    height: 80px;
+    float: left;
+    background-image:  url(../imagens/logoPreto.png);
+    background-size: 220px;
+    background-repeat: no-repeat;
+}
+.caixa_menu{
+    width: 680px;
+    height: 80px;
+    float: left;
+   
+}
+.menu{
+    width: 130px;
+    height: 50px;
+    font-family: Century gothic;
+    float: left;
+    padding-top: 30px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 16px;
+    color: black;
+   letter-spacing: 1px;
+    
+}
+.menu:hover{
+    background-color:#f9c172;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 2px;
+}
+.caixa_cadastro{
+    width: 460px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+}
+.caixaText_cadastro{
+    width: 180px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-family: Century gothic;
+    color: black;
+   letter-spacing: 1px;
+}
+
+/*começo section da home*/
+.section_conteudo{
+    width: 1300px;
+    min-height: 1900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    overflow:hidden;
+    
+}
+
+/* icones ao lado*/
+.icons{
+    width: 100px;
+    height: 200px;
+    position: fixed;
+    margin-left: 950px;
+    background-repeat: no-repeat;
+    margin-top: -150px;    
+}
+/* caixa do slide*/
+.slide{
+     width: 1300px;
+    height:500px;
+    float: left;
+    margin-top: 100px;
+
+   
+}
+/* conteudo home*/
+.caixa_conteudo{
+    width: 1300px;
+    height:1300px;
+    background-color: darkgrey;
+
+}
+
+.menu_lateral{
+    width: 300px;
+    height:1300px;
+    background-color:#d1cdca;
+    float: left
+}
+
+.divMenu_lateral{
+   width: 300px;
+    height: 80px;
+    margin-top: 15px;
+    background-color: #ffa830;
+    color: white;
+}
+.conteudo{
+    width: 1000px;
+    min-height:1300px;
+    background-color: #eaecf2;
+    float: left;
+    height: auto;
+    overflow: hidden;
+}   
+.conteudo_caixaLivros{
+    width: 900px;
+    min-height: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+    overflow: hidden;
+}
+.caixa_livros{
+    width: 280px;
+    height: 350px;
+    background-color: ghostwhite;
+    margin-left: 15px;
+    float: left;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.caixa_livros:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    
+}
+
+.foto_livro{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 15px;
+}
+.titulo_livro{
+    font-family: verdana;
+    font-size: 15px;
+    margin: auto;
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.descricao{
+    font-family:Arial ;
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+/* começo do rodapé */
+footer{
+    width: 1300px;
+    height:300px;
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-family: cursive;
+    color: #828282;
+    text-align: center;
+    
+}
+.caixa_informacoes{
+    width: 1300px;
+    height: 240px;
+    margin: auto;
+}
+
+.h7{
+    color: #45a049;
+    text-align: left;
+    font-size: 15px;
+    margin-top: -2px;
+    margin-left: 15px;
+    font-family: verdana;
+}
+
+h6{
+    color: #e88866;
+    font-size: 15px;
+    margin-top: -2px;
+    margin-left: 210px;
+    
+}
+
+h3{
+    color: #e88866;
+    font-family: corbel;
+    margin-left: 50px;
+}
+h5{
+    color: #a3a3a3;
+    font-family: corbel;
+    margin-left: 50px;
+    font-size: 13px;
+}
+
+.caixa_footer{
+    margin-top: 40px;
+    width: 300px;
+    height: 150px;
+    float: left;
+    margin-left: 100px;
+    
+}
+
+/* começo do fale conosco*/
+.tela_faleConosco{
+    padding-top: 150px;
+    width: 1300px;
+    height: 1000px;
+    background-color: #f2c993;
+    margin: auto;
+}
+.caixa_formulario{
+   
+    width: 750px;
+    height: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    background-color: #f2f2f2;
+}
+.caixa_row{
+    width: 700px;
+    height: auto;
+    clear: both;
+}
+#titulo_faleConosco{
+    width: 650px;
+    height: 115px;
+    font-size: 25px;
+    font-family: century gothic;
+    padding: 30px;
+}
+.assunto{
+    width: 500px;
+    height: 10px;
+    font-size: 25px;
+    font-family: century gothic;
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px;
+
+}
+.caixa_input{
+    width: 700px;
+
+}
+
+.input_cadastro{
+    width: 150px;
+    height: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.botao{
+    margin-top: 35px;
+    font-family: Century gothic;
+    padding: 10px 10px;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:white;
+    
+}
+#botaoOK{
+    margin-top:30px;
+    margin-left: 15px;
+    font-family: Century gothic;
+    padding: 15px 15px;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#6acce2;
+   
+}
+
+#botaoOK:hover{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    
+   
+}
+.botao:hover{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+.telefone{
+    width: 200px;
+    height: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+   
+}
+
+.caixa_left{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-left: 50px;
+}   
+
+.assunto_left{
+    width: 120px;
+    height: 15px;
+    font-size: 25px;
+    font-family: century gothic;
+    padding: 20px;
+    text-align: left;
+    margin-left: -25px;
+}
+
+#select_left{
+    width: 180px;
+    height: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: -10px;
+    
+}
+
+
+.caixa_input_left{
+    width: 230px;
+    height: auto;
+    margin-left: -10px;
+    
+}
+/* input formatando segundo os types */
+input[type=text],select,textarea{
+    width: 645px;
+    height: auto;
+    margin-left: 40px;;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    
+}
+
+
+input[type=email]{
+    width: 645px;
+    height: auto;
+    margin-left: 40px;;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    
+}
+input[type=submit] {
+    background-color: #6acce2;
+    color: white;
+    padding: 15px 20px;
+    font-size: 18px;
+    border  : none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 500px;
+    margin-top: 40px; 
+}
+
+input[type=submit]:hover{
+    background-color: #52b7ce;
+}
+
+#logout{
+    margin-left: 40px;
+    margin-top: 30px;
+    float: left;
+}
+
+/* tela sobre */
+#caixa_imgSobre{
+    width: 1300px;
+    height:300px;
+    background-color : dimgray;
+    text-align: center;
+    padding-top: 160px;
+    transition: 1.0s;
+     opacity: 0.8;
+}
+
+
+#caixa_imgSobre:hover{
+    opacity: 0.8;
+    transition: 1.0s;
+    background-color: #ffb356;
+}
+
+#conteudo_sobre{
+    padding-top: 50px;
+    width: 1300px;
+    min-height: 1600px;
+    height:auto;
+    background-color: white;
+}
+#texto_sobre{
+    width: 800px;
+    height:550px;
+    margin: auto;
+    color: black;
+    font-size: 18px;
+    font-family: century gothic;
+    padding: 20px;
+    text-align: justify;
+}
+
+.texto_sobre_2{
+    width: 400px;
+    height: auto;
+    margin-left: 180px;
+    color: black;
+    font-size: 18px;
+    font-family: century gothic;
+    text-align: justify;
+    float: left;
+}
+
+.sobre_lojas{
+    float: left;
+    width: 300px;
+    height:300px;
+    border-radius: 200px;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.texto_sobre_3{
+    width: 550px;
+    height: auto;
+    margin-left: 80px;
+    color: black;
+    font-size: 18px;
+    font-family: century gothic;
+    text-align: justify;
+    float: left;
+    margin-top: 100px;
+}
+
+/* tela livro do mes*/
+.section_livroMes{
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    overflow:hidden;
+}
+
+#conteudo_livroMes{
+    padding-top: 100px;
+    width: 1300px;
+    background-color:white;
+    min-height: 1000px;
+    height:auto;
+    
+}
+
+.caixa_livroDestaque{
+    background-color: #f9c172;
+    height: 150px;
+    width: 1300px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 50PX;
+    font-family: century gothic;
+    font-size: 45px;
+}   
+
+.livrosDestaques{
+    width: 900px;
+    padding-top: 100PX;
+    height: auto;
+    max-height: 500px;
+    margin: auto;
+}
+.foto_livro2{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    margin-top: 15px;
+}
+.titulo_livro2{
+    font-family: verdana;
+    font-size: 1s5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 370px;
+    
+}
+
+.descricao2{
+    font-family:Arial ;
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.caixa_livros2{
+    width: 900px;
+    min-height: 350px;
+    height: auto;
+    background-color: ghostwhite;
+    margin-left: 15px;
+    float: left;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.caixa_livroMes{
+    margin: auto;
+    width: 160px;
+    height: 100px;
+    background-color:gray;
+    font-weight: bold;
+    color: white;
+    font-family: century gothic;
+    font-size: 23px;
+    border-radius: 200px;
+    background-size: 200px;
+    padding-top: 60PX;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    
+}
+
+/* tela de autores*/
+.section_conteudoAutores{
+    width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2c993;
+    overflow:hidden; 
+}
+.caixa_autorDestaque{
+    background-color: #f9c172;
+    height: 150px;
+    width: 1300px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-top: -50px;
+    padding-top: 50PX;
+    font-family: century gothic;
+    font-size: 45px;
+}   
+
+#conteudo_autores{
+    padding-top: 150px;
+    height: auto;
+    width: 1300px;
+    background-color: #f2c993;
+    min-height: 800px;
+    
+   
+}
+
+
+.row_autores{
+    width: 350px;
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    float: left;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+.row_autores:hover{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.img_autores{
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+.img_autores img{
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 100PX;
+}
+
+.nome_autores{
+    width: 220px;
+    height: 100px;
+    float: left;
+    margin-left: 15px;
+    font-family:century gothic;
+}
+
+
+
+/* tela nossas lojas*/
+.section_conteudoLojas{
+     width: 1300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    overflow:hidden; 
+}
+#conteudo_lojas{
+    padding-top: 100px;
+    width: 1300px;
+    background-color: white;
+    height:auto; 
+}
+
+.caixa_pesquisaLoja{
+    width: 400px;
+    background-color: lightgrey;
+    height:700px;
+    color: gray;
+    font-size: 20PX;
+    font-family: monospace;
+    padding: 50PX;
+    float: left;
+    
+}
+.caixa_inputPesquisa{
+    width: 300px;
+    height: auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.caixa_maps{
+    width: 800px;
+    height:800px;
+    background-repeat: no-repeat;
+    font-size: 20PX;
+    font-family: monospace;
+    float: left;
+}
+
+#btn_pesquisar{
+    background-color: gray;
+    color: white;
+    width: 320px;
+    height: 45px;
+    font-size: 16px;
+    border  : none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.caixa_locais{
+    margin-top: 60px;
+    width: 350px;
+    height: 70px;
+    background-color: white;
+    border-radius: 8px;
+    
+}
+.img_local{
+    width: 50px;
+    height: 70px;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.local{
+    margin-top: 10px;
+    width: 300px;
+    height: 70px;
+    float: left;
+    font-size: 16px;
+}
+.caixa_locais:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+/* tela promoçoes*/
+.tela_promocoes{
+    width: 1300px;
+    min-height: 900px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    overflow:hidden;
+}
+
+.caixa_promocoes{
+    padding-top: 100px;
+    width: 1300px;
+    background-color: white;
+    height:auto; 
+}
+
+#img_oferta{
+   text-align: center;
+    width: 1400px;
+    height: 250px;
+    background-color: #eacf6b;
+}
+#conteudo_promocoes{
+    padding: 40PX;
+    width: 1400px;
+    min-height: 900px;
+    height: auto;
+    background-color: #f2c993;
+}
+
+.caixa_conteudoPromo{
+    padding: 30PX;
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    float: left;
+    margin-left: 30PX;
+    margin-top: 20PX;
+}
+
+.img_livroPromocao{
+    width: 210px;
+    height: 200px;
+    float: left;
+}
+.img_livroPromocao img{
+    max-height: 250px;
+    max-width: 200px;
+}
+
+.txt_promocao{
+    width: 350px;
+    height: 400px;
+    text-align: center;
+    font-size: 25px;
+    font-family: monospace;
+    color: dimgray;
+    float: left;
+
+}
+
+.txt_negritoPromocao{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    color: orange;
+}
+
+.caixa_conteudoPromo:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+
+#foto,#foto img{
+    width: 150px;
+    height:200px;
+    float: left;
+}
+#foto2 , #foto2 img{
+    width: 150px;
+    height:200px;
+    margin: auto;
+}
+
+.caixa_sub{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}

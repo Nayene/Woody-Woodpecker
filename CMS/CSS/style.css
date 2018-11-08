@@ -1,0 +1,579 @@
+/* CSS*/
+
+body{ /*para zera completamente as bordas do body */ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+p,h1,ul,li,h4{ /*para zera completamente para depois nao der erro */ 
+    padding: 0px;
+    margin: 0px;
+    margin-right: 
+        
+}
+a{ 
+    color: inherit;
+    cursor: pointer;
+} 
+a:link{ 
+text-decoration:none; 
+} 
+
+.telaCMS{
+    width: 100%;
+    height: auto;
+    min-height: 950px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.caixa_cms{
+    width: 1100px;
+    height: auto;
+    min-height: 850px;
+    background-color: #f9c172;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.header{
+    width: 100%;
+    height: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.caixa_cabecario{
+    width: 98% ;
+    height: 180px;
+    background-color: #f9c172;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+        
+
+}
+
+.tituloCMS{
+    width: 50%;
+    height: 60%;
+    font-family: century gothic;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 72px; 
+    float: left;
+    font-weight: bold;
+    
+}
+
+.logoCMS{
+    width: 50%;
+    height: 72%;
+    float: left;
+    padding-top: 50px; 
+    text-align: center;
+}
+
+.caixa_menu{
+    width: 100%;
+    height: 200px;
+    background-color: #f2f2f2;
+}
+
+.menu_icon{
+    width: 140px;
+    height: 80%;
+    padding: 20px;
+    float: left;
+}
+
+h2{
+    font-family: century gothic;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.mensagem{
+    width: 250px;
+    height: 65%;
+    padding: 17px;
+    padding-left: 80px;
+    float: left;
+    font-family: century gothic;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.imgLogout{
+    margin-top: 65px;
+    margin-left: 200px;
+}
+
+
+
+.caixa_sectionCMS{
+    width: 1060px;
+    height: auto;
+    min-height: 600px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-top: 50px
+}
+
+.caixaPagina{
+    width:40%;
+    height: 80PX;
+    padding: 20px;
+    float: left;
+    background-color: #f2f2f2;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.caixaPagina:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    
+}
+.imgPagina{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nomePagina{
+    width: 50%;
+    height: 100%;
+    float: left;
+    font-family: century gothic;
+    font-size: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+
+
+.footer{
+    width: 90%;
+    height: 25px;
+    font-family: century gothic;
+    font-size: 15px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    background-color: #f9c172;
+    padding: 30px;
+}
+
+
+/* area de fale conosco */ 
+.sectionFaleconosco{
+    width: 1040px;
+    height: auto;
+    min-height: 500px;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+}
+.titulo{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: century gothic;
+    
+}
+
+.tabela{
+    width: 100%;
+    min-height: 90px;
+    height: auto;
+    font-size: 25px;
+    font-family: century gothic;
+   background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: -5px;
+      margin-top: 10px;
+}
+
+.row_tabela{
+    padding: 10px;
+    width: 80%;
+    float: left;
+    min-height: 80px;
+    height: auto;
+    font-size: 25px;
+    font-family: century gothic;
+   
+     
+}
+
+.tabela:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+    
+}
+
+.icon_tabela{
+    padding: 25px;
+    width: 120px;
+    float: left;
+    height: 50px;
+   
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+   
+}
+
+#modal{
+    width: 1000px;
+    height: 800px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+
+.caixa_telamodal{
+    min-height: 900px;
+    height: auto;
+    width: 100%;
+    background-color: gainsboro;
+    padding: 20px;
+}
+
+.caixa_modalSelecionado{
+    min-height: 900px;
+    height: auto;
+    width: 100%;
+    background-color: ;
+}
+
+.row_tabelaModal{
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    font-size: 25px;
+    font-family: century gothic;
+    border: 10px;
+    margin-top: 10px;
+  
+}
+.row_tabelaModal:hover{
+     box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+}
+.modal_item{
+    width: 30%;
+    min-height: 50px;
+    height: auto;
+    font-size: 25px;
+    font-family: century gothic;
+    background-color: #f2f2f2;
+    float: left;
+    text-align: right; 
+}
+.modal_banco{
+    float: left;
+    width: 70%;
+    min-height: 50px;
+    height: auto;
+    font-size: 25px;
+    font-family: century gothic;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+textarea{
+    width: 693px;
+    height: 150px;
+    
+}
+
+
+/* area de usuarios */ 
+.sectionUsuarios{
+    width: 530px;
+    min-height: 420px;
+    height: auto;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.sectionAutores{
+    width: 730px;
+    min-height: 420px;
+    height: auto;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.caixa_nome{
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+}
+.caixa_nome_sobre{
+    padding: 10px;
+    width: 90%;
+    height: 180px;
+    margin-top: 25px;
+}
+.caixa_nome_autores{
+    padding: 10px;
+    width: 700px;
+    height: 40px;
+    
+}
+
+.informacao{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    font-family: century gothic;
+    float: left;
+    text-align: right;
+   
+}
+.informacao_autores{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    font-family: century gothic;
+    float: left;
+    text-align: right;
+}
+.informacao_autores_top{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    font-family: century gothic;
+    float: left;
+    text-align: right;
+    margin-top: 30px;
+}
+
+input[type=text],select{
+    width: 400px;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: -5px;
+    
+}
+.file{
+   width: 400px;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+textarea{
+    width: 400px;
+    min-height: 100px;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 15px;    
+}
+
+.textareaSobre{
+    width: 350px;
+    min-height: 150px;
+    height: auto;
+    margin-left: 38px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px; 
+    margin-top: -10px;
+    float: left;
+}
+
+.textareaMes{
+    width: 400px;
+    min-height: 120px;
+    height: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px; 
+    margin-top: -10px;
+}
+.input_senha{
+    width: 300px;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: -5px;
+}
+.date{
+    width: 200px;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 10px;
+   
+    
+}
+input[type=submit] {
+    background-color:#52b7ce;
+    color: white;
+    padding: 15px 165px;
+    font-size: 18px;
+    border  : none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.caixa_sub {
+   width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+input[type=submit]:hover{
+    background-color: #6acce2;
+}
+
+.sectionCrudUsuarios{
+    width: 1040px;
+    height: auto;
+    min-height: 500px;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.titulo_crud{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: century gothic;
+    margin-top: 100px;
+    
+}
+
+.sectionNiveis{
+    width: 800px;
+    height: auto;
+    min-height: 250px;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.caixa_cad{
+   margin-left: 300px;
+    margin-top: 200px;  
+    float: left;
+}
+.caixa_ni{
+    margin-left: 200px;
+     margin-top: 200px;  
+    float: left;
+}
+.item{
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+}
+.fotoau{
+    float: left;
+    width: 60px;
+  
+}
+.fotoAutor{
+    width: 50px;
+    height: 50px;
+}
+    
+#visualizar,#visualizar img{
+    width: 250px;
+    height: 250px;
+    background-color: #f2f2f2;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#foto,#foto img{
+    width: 70px;
+    height:65px;
+    
+    margin: auto;
+}
+.caixaModo{
+    width: 100%;
+    height: 50px;
+    margin-top: 120px;
+}
+.modo{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-family: century gothic;
+    float: left;
+    text-align: right;
+}
+.form{
+    margin-top: 50px;
+}
+.sectionLojas{
+    width: 800px;
+    min-height: 420px;
+    height: auto;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+.sectionUsuarios{
+    width: 800px;
+    min-height: 420px;
+    height: auto;
+    background-color: #f9c172;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+
+
+
